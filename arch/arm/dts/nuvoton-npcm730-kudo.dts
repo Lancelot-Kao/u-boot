@@ -8,7 +8,7 @@
 #include "nuvoton-npcm730-kudo-pincfg.dtsi"
 
 / {
-	model = "Fii npcm730 BMC Board (Device Tree v00.07)";
+	model = "Fii Kudo Board (Device Tree v00.07)";
 	compatible = "nuvoton,poleg", "kudo";
 
     pinctrl: pinctrl@f0800000 {
@@ -96,3 +96,4 @@
                 &gpio219oh_pins
                 >;
 	};
+};
